@@ -1,5 +1,9 @@
 <template>
-  <div>
-    <h1 class="text-danger">The index page adding for test</h1>
+  <div class="container">
+    <h1 class="text-center typewriter">Hello, I am a software developer</h1>
+    <div class="ms-5">
+      <button class="btn btn-primary">Projects</button>
+    </div>
+    
   </div>
 </template>
