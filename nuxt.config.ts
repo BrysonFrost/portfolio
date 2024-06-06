@@ -16,5 +16,15 @@ export default defineNuxtConfig({
       ]
     }
   },
-  css: ['@/assets/main.css']
+  css: ['@/assets/main.css'],
+  modules: [
+    'nuxt-icon',
+    '@nuxt/content'
+  ],
+  content: {
+    highlight: {
+      theme: 'nord',
+      preload: ['ts', 'js', 'css', 'java', 'json', 'bash', 'vue']
+    }
+  }
 })
