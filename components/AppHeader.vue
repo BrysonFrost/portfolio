@@ -1,13 +1,22 @@
 <script setup>
-  const route = useRoute(); 
+  const route = useRoute();
+  const router = useRouter();
+
+  //when page changes, close navbar
+  router.beforeEach(() => {
+    var navCollapse = document.getElementById('navbarNav');
+    if(navCollapse.classList.contains('show')) {
+      navCollapse.classList.remove('show');
+    }  
+
+  })
 </script>
-<script>
-</script>
+
 
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
     <div class="container">
-      <NuxtLink to="/" class="navbar-brand text-light">LOGO</NuxtLink>
+      <NuxtLink to="/" class="navbar-brand text-light" @click="hide">LOGO</NuxtLink>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
