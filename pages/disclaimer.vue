@@ -1,0 +1,6 @@
+<template>
+  <div class="container">
+    <h1>Legal Disclaimer</h1>
+    <h6>The logos and brands displayed on this website ([Website URL]) are the property of their respective owners. These logos and brands are used for identification purposes only. Use of these logos and brands does not imply endorsement, sponsorship, or affiliation with this website or its services. All logos and brands featured on this website belong to their respective trademark owners. The use of these logos and brands does not indicate any ownership or control by [Your Name] over them. We acknowledge the intellectual property rights of third parties. The logos and brands are displayed on this website for informational purposes to illustrate the experience, skills, or associations of [Your Name]. They are used in a manner that constitutes fair use under copyright law. The presence of logos and brands on this website does not constitute an endorsement, sponsorship, or recommendation by the respective trademark owners. [Your Name] does not make any claims about the accuracy, reliability, or suitability of the use of these logos and brands. If you have any questions regarding this logo and brand disclaimer, please contact us at: [Your Contact Information]</h6>
+  </div>
+</template>

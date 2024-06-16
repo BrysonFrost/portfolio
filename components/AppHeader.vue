@@ -36,7 +36,7 @@
             <NuxtLink to="/blog" class="nav-link" active-class="active">Blog Posts</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink to="/about" class="nav-link" active-class="active">Contact</NuxtLink>
+            <NuxtLink to="/contact" class="nav-link" active-class="active">Contact</NuxtLink>
           </li>
         </ul>
       </div>

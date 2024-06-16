@@ -5,7 +5,7 @@
         <div class="col"></div>
         <div class="col-8 col-sm-6">
           <h6 class="text-center mb-0 text-white">&copy; 2024 - Bryson Frost</h6>
-          <p class="text-primary text-center pt-1">Privacy Policy</p>
+          <h6 class="text-center"><NuxtLink to="/disclaimer" class="text-primary">Disclaimer</NuxtLink></h6>
         </div>
         <div class="col">
           <NuxtLink to="https://github.com/BrysonFrost" target="_blank">
