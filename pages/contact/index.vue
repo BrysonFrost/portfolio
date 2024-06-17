@@ -1,3 +1,7 @@
+<script setup>
+const model = defineModel()
+
+</script>
 <template>
   <div class="container col-lg-8 col-xl-7 mt-5">
     <div class="text-center">
@@ -12,20 +16,20 @@
           <div class="col-12 col-xl-5">
             <div class="row">
               <div class="mb-4 col-xl-12 col-md-6 mt-xl-1">
-                <input type="text" class="form-control" id="nameinput" placeholder="Your Name :">
+                <input type="text" name="name" v-model="name" class="form-control" placeholder="Your Name :">
               </div>
               <div class="mb-4 col-xl-12 col-md-6">
-                <input type="email" class="form-control" id="emailinput" placeholder="Email Address :">
+                <input type="email" name="email" v-model="email" class="form-control" placeholder="Email Address :">
               </div>
             </div>
 
             <div class="mb-4">
-              <input type="text" class="form-control" id="subjectinput" placeholder="Message Subject :">
+              <input type="text" name="subject" v-model="subject" class="form-control" placeholder="Message Subject :">
             </div>
           </div>
 
           <div class="mb-4 col-xl-7">
-            <textarea class="form-control" id="messageinput" rows="6" placeholder="Your Message :"></textarea>
+            <textarea class="form-control" name="message" v-model="message" rows="6" placeholder="Your Message :"></textarea>
           </div>
         </div>
 
@@ -35,5 +39,7 @@
 
       </div>
     </form>
+
   </div>
+
 </template>
