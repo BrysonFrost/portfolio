@@ -2,12 +2,12 @@
   <div class="footer mt-auto pt-3 pb-1 bg-dark">
     <div class="container">
       <div class="row">
-        <div class="col"></div>
-        <div class="col-8 col-sm-6">
-          <h6 class="text-center mb-0 text-white">&copy; 2024 - Bryson Frost</h6>
-          <h6 class="text-center"><NuxtLink to="/disclaimer" class="text-primary">Disclaimer</NuxtLink></h6>
+        <div class="col d-none d-sm-block"></div>
+        <div class="col-12 col-sm-6 mb-sm-2">
+          <h6 class="text-center mb-sm-1 mb-2 text-white-50">&copy; 2024 - Bryson Frost</h6>
+          <h6 class="text-center"><NuxtLink to="/disclaimer" class="text-primary text-decoration-none">Disclaimer</NuxtLink></h6>
         </div>
-        <div class="col">
+        <div class="col mb-2 mb-xs-0 d-none d-sm-block">
           <NuxtLink to="https://github.com/BrysonFrost" target="_blank">
             <Icon name="mdi:github" width="1.8em" height="1.8em" color="white" />
           </NuxtLink>

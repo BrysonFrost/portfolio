@@ -4,6 +4,6 @@
     <div class="ms-5">
       <button class="btn btn-primary">Projects</button>
     </div>
-    
+
   </div>
 </template>
