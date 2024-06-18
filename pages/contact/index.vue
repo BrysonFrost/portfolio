@@ -15,7 +15,7 @@ const model = defineModel()
         <div class="row">
           <div class="col-12 col-xl-5">
             <div class="row">
-              <div class="mb-4 col-xl-12 col-md-6 mt-xl-1">
+              <div class="mb-4 col-xl-12 col-md-6">
                 <input type="text" name="name" v-model="name" class="form-control" placeholder="Your Name :">
               </div>
               <div class="mb-4 col-xl-12 col-md-6">
